@@ -1,7 +1,7 @@
 <?php
 if(!function_exists('page_title')){
     function page_title($title){
-        $base_title = "liste des Artisan";
+        $base_title = config('app.name') ." - liste des Artisan";
         if($title===""){
             return $base_title;
         }else{

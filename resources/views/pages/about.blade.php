@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <h2>qu'est-ce que laracarte ?</h2>
+        <h2>qu'est-ce que {{config('app.name')}} ?</h2>
         <p>laracart est une application clone de <a href="https://laramap.com" targat="_blank"> Laramap.com</a></p>
         <div class="row">
             <div class="col-md-9">
@@ -13,7 +13,7 @@
         </div>
         <p>n'hésitez pas à aider à améliorer le <a href="https://github.com/Yorgo96/Laracart-YP"> code source</a></p><hr>
         <h2>c'est quoi laramap ?</h2>
-        <p>laramap est le site web dont laracarte s'est inspiré :</p>
+        <p>laramap est le site web dont {{config('app.name')}} s'est inspiré :</p>
         <p>Plus d'infos <a href="https://laramap.com/p/about">ici</a>.</p><hr>
         <h2>quels outils et services sont utilisés dans laracarte ?</h2>
         <p>Fondamentalement, il est construit sur Laravel &amp; Bootstrap,
