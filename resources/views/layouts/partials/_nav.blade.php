@@ -7,13 +7,13 @@
         <div class="collapse navbar-collapse " id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{{route('home')}}">Accueil</a>
+                    <a class="nav-link {{set_active_route('home')}}" aria-current="page" href="{{route('home')}}">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{route('about')}}">Appropos</a>
+                    <a class="nav-link {{set_active_route('about')}}" href="{{route('about')}}">Appropos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Artisan</a>
+                    <a class="nav-link " href="#">Artisan</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Planet</a>
