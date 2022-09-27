@@ -16,7 +16,7 @@
                     <a class="nav-link " href="#">Artisan</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Planet</a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"aria-haspopup="true" aria-expanded="false">Planet</a>
                     <ul class="dropdown-menu">
                         <li>
                             <a class="dropdown-item" href="#">Action</a>
@@ -33,7 +33,7 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link {{set_active_route('contacts')}}" href="{{route('contacts')}}">Contact</a>
                 </li>
             </ul>
         </div>
